@@ -1,6 +1,11 @@
+# Exclude __pycache__ files and directories
+__pycache__/
+
+# Exclude .pyc files
 *.pyc
-*.ipynb_checkpoints
-.env
-*__pycache__/
-naruto/Lib/site-packages/torch/lib/torch_cpu.dll
-naruto/Lib/site-packages/torch/lib/dnnl.lib
+
+# Exclude gradio folder
+naruto/Lib/site-packages/gradio/
+
+# Exclude entire 'Lib/site-packages' folder if needed
+naruto/Lib/site-packages/
