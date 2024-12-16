@@ -1,0 +1,6 @@
+*.pyc
+*.ipynb_checkpoints
+.env
+*__pycache__/
+naruto/Lib/site-packages/torch/lib/torch_cpu.dll
+naruto/Lib/site-packages/torch/lib/dnnl.lib
